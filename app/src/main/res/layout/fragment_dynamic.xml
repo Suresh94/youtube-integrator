@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.palle.annu.b33_jsongetexample.DynamicFragment">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/button_get"
+       android:text="Get"
+       android:textColor="#F00"
+       android:layout_margin="10sp"
+       android:padding="19sp"
+       android:textSize="16sp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView1"
+        android:background="#3a4a5a"
+        android:layout_margin="10sp"
+        android:padding="10sp"></ListView>
+</LinearLayout>
